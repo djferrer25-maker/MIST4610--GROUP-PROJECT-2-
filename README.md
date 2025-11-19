@@ -1,5 +1,20 @@
 # MIST4610--GROUP-PROJECT-2-
 
+Group 2
+
+Team Members:
+
+[Daniel Ferrer](https://github.com/djferrer25-maker)
+
+[Ian Martin](https://github.com/icmj6789-commits)
+
+[Noila Rahimjon](https://github.com/noilar)
+
+[Oraa Raysoni](https://github.com/oraaraysoni-beep)
+
+[Sisira Gudi](https://github.com/sisiragudi-web)
+
+
 Question: 
 Question 1: "How has the physical fitness gap between male and female students in California's public schools evolved over the last two decades (1999-2019), and how does this trend differ across Grade 5, Grade 7, and Grade 9?"
 
