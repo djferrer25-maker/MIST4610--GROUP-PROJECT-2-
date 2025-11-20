@@ -86,9 +86,9 @@ Question 1: The Influence of County Size
 
 Finding: No Correlation Between County Size and Fitness
 
-Contrary to our initial hypothesis, our analysis revealed no statistically significant correlation between a county's size (Small, Medium, or Large) and its student fitness scores. High and low performing counties were distributed randomly across all size categories.
+Contrary to our initial hypothesis, our analysis revealed no statistically significant correlation between a county's size and its student fitness scores. High and low performing counties were distributed randomly across all size categories.
 
-Visualization Used: Scatter plot and trend line (Finding p-value as well as r-squared)
+Visualization Used: To evaluate whether a county’s student population size was associated with its average fitness percentage, we created a scatter plot comparing total students tested (from the denominator column) to each county’s long-term average fitness score. A linear trend line was added to this visualization so Tableau could generate the slope, p-value, and R², allowing us to formally assess whether any meaningful relationship existed. Since Los Angeles County was a major outlier (it's population being massive), we produced a second version of the scatter plot with LA removed. This adjusted plot rescaled the axes and allowed the remaining counties to be more clearly compared, while the trend line again confirmed that the relationship between county size and fitness percentage was essentially nonexistent. Together, these visualizations demonstrated that student population size has no statistical connection to fitness outcomes.
 
 Implication: This "null result" is a critical finding for policymakers. It indicates that structural size is not a barrier to fitness. A large urban county has just as much potential for high fitness as a small rural one. Therefore, the disparity in fitness rates is likely driven by manageable variables such as access to recreation, income levels, food security, and school funding. Policy focus should shift away from geographic excuses and towards these actionable socioeconomic factors.
 
@@ -98,7 +98,7 @@ Finding: Divergence of "Risers" and "Fallers"
 
 While the state-wide average fitness rate increased by 6.5% over the two decades (peaking in 2009), the aggregate data masks a massive divergence in local outcomes. The "20-Year Change" metric identified distinct groups of "Risers" and "Fallers."
 
-Visualization Used: Bar Charts, Stacked Bar Chart,  Maps, & Scatter Plot. 
+Visualization Used: To analyze how student fitness evolved across California over the 20-year period, we used a series of visualizations that captured both statewide and county-level trends. We first created a statewide line chart showing the average fitness percentage across all 58 counties from 1998 to 2018, revealing an initial 13-year rise followed by a consistent seven-year decline. To visualize individual county trajectories, we built a multi-line chart with each county represented separately, which highlighted the divergence between counties that improved and those that declined. We then created a bar chart ranking the 20-year average fitness score for each county, followed by year-specific bar charts for 1998 and 2018 to show how county standings changed over time. To quantify these long-term shifts, we built a “20-Year Change” scatter plot using a fixed calculation that compared each county’s first and last available fitness values. Finally, we produced two choropleth maps. one for 1998 and one for 2018, to visualize geographic patterns and regional shifts in fitness performance. Together, these visualizations showed that California’s overall average trend masks substantial variation across counties, with clear examples of “risers” and “fallers” over the two decades.
 
 Quantified Divergence:
 
